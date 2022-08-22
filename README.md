@@ -7,3 +7,5 @@
 * What is a complete, a full, a perfect, a balanced binary tree
 ## illustration
 ![binary-tree](https://i.postimg.cc/G2DVb7v1/binary-tree.png)
+##walker
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
