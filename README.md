@@ -6,4 +6,5 @@
 * What are the different traversal methods to go through a binary tree
 * What is a complete, a full, a perfect, a balanced binary tree
 ## illustration
+[binary-tree.png](https://postimg.cc/sQVwcJnn)
 [![binary-tree.png](https://i.postimg.cc/G2DVb7v1/binary-tree.png)](https://postimg.cc/sQVwcJnn)
