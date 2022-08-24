@@ -20,8 +20,9 @@ int binary_tree_balance(const binary_tree_t *tree)
 }
 
 /**
- *
- *
+ * count_edge - count the edges
+ * @tree: pointer to a node
+ * Return: number of edges
  */
 
 int count_edge(const binary_tree_t *tree)
