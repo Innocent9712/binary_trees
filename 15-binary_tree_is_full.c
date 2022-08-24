@@ -5,8 +5,6 @@
  * @tree: a pointer to the root node of the tree to check
  * Return: If tree is NULL, your function must return 0
  */
-void check_full(const binary_tree_t *tree, int *count);
-
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	int count = 1;
@@ -18,7 +16,12 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	check_full(tree, &count);
 	return (count);
 }
-
+/**
+ * check_full - checks if all nodes have two nodes
+ * @count: pointer to number of nodes
+ * @tree: pointer to root
+ * Return: Nothing
+ */
 void check_full(const binary_tree_t *tree, int *count)
 {
 	if (!tree)
