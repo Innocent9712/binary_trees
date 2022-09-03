@@ -9,10 +9,12 @@
 
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
+	unsigned int node_count, index = 0;
+
 	if (!tree)
 		return (0);
-	unsigned int node_count = count_nodes(tree);
-	unsigned int index = 0;
+
+	node_count = count_nodes(tree);
 
 	return (is_complete(tree, index, node_count));
 }
