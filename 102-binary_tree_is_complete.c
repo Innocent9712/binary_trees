@@ -1,9 +1,5 @@
 #include "binary_trees.h"
 
-unsigned int count_nodes(const binary_tree_t *node);
-int is_complete(const binary_tree_t *tree, unsigned int index,
-		unsigned int number_of_nodes);
-
 /**
  * binary_tree_is_complete - checks if binary tree is complete
  * @tree: tree to check
